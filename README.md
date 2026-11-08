@@ -8,7 +8,7 @@ has samples; a soft ambient wave keeps the pill moving when playback is remote.
 
 ![Spotifast Pill, dark](preview/dark.png)
 
-<img src="preview/light.png" alt="Spotifast Pill, light" width="100%">
+<img src="preview/light.png" alt="Spotifast Pill, light" width="55%">
 
 The starting idea was [Dynamic Music Pill](https://github.com/Andbal23/dynamic-music-pill): a floating
 media controller that samples the cover for an adaptive colour, blurs the desktop behind it and expands
@@ -20,7 +20,6 @@ or resize on demand. This is the closest compact approximation the format allows
 ## Install
 
 Drop either file from `dist/` onto the mini player (**Ctrl+M**, or **Cmd+Shift+M** on macOS), or open
-**Settings → Winamp mini player → Choose a skin**. Rebuild or recolour with
-`python3 tools/build_skins.py` (needs Pillow) — the `.wms` and every bitmap are generated there.
+**Settings → Winamp mini player → Choose a skin**.
 
 MIT licensed. No code or artwork from Dynamic Music Pill is used.
