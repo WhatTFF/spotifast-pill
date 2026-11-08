@@ -492,11 +492,12 @@ def definition(p: Palette) -> str:
     artist = f"#{p.artist_color[0]:02x}{p.artist_color[1]:02x}{p.artist_color[2]:02x}"
     wave = "#%02x%02x%02x" % p.viscolors[2]
     return f"""<!--
-  {p.title}. A modern, pill-shaped mini player for Spotifast.
+  {p.title}. A compact music-pill mini player skin for Spotifast.
 
   Drawn by tools/build_skins.py. The pill is one frosted rounded rectangle:
   rounded album art, title and artist, a live visualiser, a seek line and
-  Apple-Music-style transport controls.
+  compact transport controls. A fixed WMP window cannot reproduce the
+  adaptive colour, backdrop blur or popover of a live desktop widget.
 -->
 <THEME title="{p.title}" author="Made for Spotifast" copyright="Free to copy and remix">
 <VIEW id="main" width="{W}" height="{H}" titleBar="false" backgroundColor="none"
